@@ -1,0 +1,125 @@
+body {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    column-gap: 10px;
+    font-size: 70px;
+}
+
+.good {
+    color: #0c5f5f;
+    font-weight: 700;
+}
+
+.food {
+    background-color: #0c5f5f;
+    color: white;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.input {
+    height: fit-content;
+    padding: 10px;
+}
+
+.steak {
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+/* content */
+
+.content {
+    display: flex;
+    padding-top: 25px;
+    column-gap: 30px;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+}
+
+.rate-food {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-rate {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.start {
+    display: flex;
+    column-gap: 10px;
+}
+
+.rate {
+    height: 30px;
+}
+
+.rate-comment {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.more {
+    display: flex;
+}
+
+.more-detail {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.description {
+    padding-top: 60px;
+}
+
+.many-item {
+    display: flex;
+    column-gap: 10px;
+}
+
+.items {
+    padding: 10px;
+    background: #72aeb240;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tìm Kiếm Đồ Ăn Ngon</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="./js/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Recipe Food</h1>
+      <p>Chia sẻ công thức nấu ăn</p>
+    </header>
+
+    <main>
+      <section class="tim-kiem">
+        <form class="form">
+          <input type="text" placeholder="Search food..." class="search_bar" />
+          <select name="loai-mon-an">
+            <option value="tat-ca">All</option>
+            <option value="mon-khai-vi">Appetizer</option>
+            <option value="mon-chinh">Main dishes</option>
+            <option value="mon-trang-mieng">Desserts</option>
+          </select>
+          <button type="submit" class="btnSearch">Search</button>
+        </form>
+      </section>
+
+      <section class="danh-muc">
+        <h2>Danh mục món ăn</h2>
+        <ul>
+          <li><a href="#">Món Việt Nam</a></li>
+          <li><a href="#">Món Âu</a></li>
+          <li><a href="#">Món Á</a></li>
+          <li><a href="#">Món chay</a></li>
+          <li><a href="#">Món ăn theo mùa</a></li>
+        </ul>
+      </section>
+
+      <section class="mon-an">
+        <h1 style="padding-bottom: 15px; font-size: 35px;">New Food Today</h1>
+        <ul class="recipe__list">
+          <li class="recipe__details">
+            <div>
+              <img
+                src="https://clipart-library.com/data_images/6103.png"
+                alt=""
+              />
+            </div>
+            <div class="recipe__infor">
+              <div>
+                <h3>${data.name}</h3>
+                <!--<p>${data.description}</p>--> 
+              </div>
+              <a href="#">View Detail</a>
+            </div>
+          </li>
+          <li class="recipe__details">
+            <div>
+              <img
+                src="https://clipart-library.com/data_images/6103.png"
+                alt=""
+              />
+            </div>
+            <div class="recipe__infor">
+              <div>
+                <h3>${data.name}</h3>
+                <p>${data.description}</p>
+              </div>
+              <a href="#">View Detail</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2024 Tìm Kiếm Đồ Ăn Ngon</p>
+    </footer>
+  </body>
+</html>
